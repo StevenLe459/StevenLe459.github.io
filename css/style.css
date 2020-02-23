@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'AlphabetizedCassetteTapes';
+    src: url('fonts/alphabetizedcassettetapes.eot');
+    src: url('fonts/alphabetizedcassettetapes.eot?#iefix') format('embedded-opentype'),
+        url('fonts/alphabetizedcassettetapes.woff2') format('woff2'),
+        url('fonts/alphabetizedcassettetapes.woff') format('woff'),
+        url('fonts/alphabetizedcassettetapes.ttf') format('truetype'),
+        url('fonts/alphabetizedcassettetapes.svg#alphabetizedcassettetapes') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    background-color: rgb(49, 45, 79);
+}
+
+h1 {
+    color: white;
+    font-family: AlphabetizedCassetteTapes;
+    font-size: 900%;
+}
+
+img.center-align {
+    display: block;
+    margin: 10px auto;
+}
+
+h1.center-align {
+    text-align: center;
+}
+
+div.center-align {
+    text-align: center;
+}
+
+a {
+    color: white;
+    width: 100px;
+    height: 50px;
+    border-style: outset;
+    border-color: white;
+    padding: 10px;
+    margin: 20px;
+}
