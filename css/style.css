@@ -10,6 +10,18 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'PressStartK';
+    src: url('fonts/PressStartK.eot');
+    src: url('fonts/PressStartK.eot?#iefix') format('embedded-opentype'),
+        url('fonts/PressStartK.woff2') format('woff2'),
+        url('fonts/PressStartK.woff') format('woff'),
+        url('fonts/PressStartK.ttf') format('truetype'),
+        url('fonts/PressStartK.svg#PressStartK') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html {
     background-color: rgb(49, 45, 79);
 }
@@ -41,4 +53,27 @@ a {
     border-color: white;
     padding: 10px;
     margin: 20px;
+}
+
+h1.video-game {
+    animation:blinkingText 1.2s infinite;
+    font-family: PressStartK;
+}
+
+@keyframes blinkingText{
+    0% {     
+        color: white;    
+    }
+    49% {    
+        color: white; 
+    }
+    60% {    
+        color: transparent; 
+    }
+    99% {    
+        color:transparent;  
+    }
+    100% {   
+        color: white;    
+    }
 }
