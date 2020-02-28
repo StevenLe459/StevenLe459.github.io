@@ -32,6 +32,11 @@ h1 {
     font-size: 900%;
 }
 
+p {
+    color: white;
+    font-size: 150%;
+}
+
 img.center-align {
     display: block;
     margin: 10px auto;

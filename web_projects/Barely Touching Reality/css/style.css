@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Abirhand';
+    src: url('fonts/Abirhand-one.eot');
+    src: url('fonts/Abirhand-one.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Abirhand-one.woff2') format('woff2'),
+        url('fonts/Abirhand-one.woff') format('woff'),
+        url('fonts/Abirhand-one.ttf') format('truetype'),
+        url('fonts/Abirhand-one.svg#Abirhand-one') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: Abirhand;
+    font-size: 300%;
+    color: white;
+}
+
+p {
+    font-size: 20px;
+    color: white;
+}
+
+p.crossed-out {
+    font-weight: bold;
+    color: gray;
+    text-decoration: underline line-through;
+}
+
+a {
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+}
+
+html {
+    background-color: black;
+}
+
+img.header {
+    width: 60%;
+    height: 5%;
+}
+
+img.paragraph {
+    width: 300px;
+    height: 300px;
+}
+
+img.align-left {
+    float: left;
+    margin-right: 10px;
+}
+
+img.align-right {
+    float: right;
+    margin-left: 10px;
+}
+
+li {
+    color: white;
+    font-size: 20px;
+}

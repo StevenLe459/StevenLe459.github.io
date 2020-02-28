@@ -1,0 +1,13 @@
+var url_string = window.location.href;
+var url = new URL(url_string);
+var name = url.searchParams.get("name");
+var role = url.searchParams.get("role");
+var hairColor = url.searchParams.get("hairColor");
+var eyeColor = url.searchParams.get("eyeColor");
+var personality = url.searchParams.get("personality");
+document.write("<p>So this is your character.</p>");
+document.write("<p>Name: " + name + "</p>");
+document.write("<p>Role: " + role + "</p>");
+document.write("<p>Hair Color: " + hairColor + "</p>");
+document.write("<p>Eye Color: " + eyeColor + "</p>");
+document.write("<p>Personaltiy Trait: " + personality + "</p>");
