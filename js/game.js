@@ -40,6 +40,7 @@ else {
 });
 
 function startGame() {
+    alert("Konami Power Unlocked!");
     document.body.innerHTML = "";
     var newh1 = document.createElement("h1");
     var newtxt = document.createTextNode("PRESS ENTER TO CONTINUE");
@@ -48,11 +49,7 @@ function startGame() {
     newh1.className = "center-align video-game";
     $(this).on('keypress', function(event) {
         if (event.keyCode == 13) {
-            game();
+            window.location.href = "./web_projects/Corgi_Loaf/index.html";
         }
     })
-}
-
-function game() {
-    alert("Under construction!");
 }
