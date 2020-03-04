@@ -61,7 +61,7 @@ a {
 }
 
 h1.video-game {
-    animation:blinkingText 1.2s infinite;
+    animation: blinkingText 1.2s infinite;
     font-family: PressStartK;
 }
 
@@ -76,7 +76,7 @@ h1.video-game {
         color: transparent; 
     }
     99% {    
-        color:transparent;  
+        color: transparent;  
     }
     100% {   
         color: white;    
