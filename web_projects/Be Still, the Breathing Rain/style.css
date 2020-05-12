@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'BreathingRain';
+    src: url('fonts/Breathingrain-Regular.eot');
+    src: url('fonts/Breathingrain-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Breathingrain-Regular.woff2') format('woff2'),
+        url('fonts/Breathingrain-Regular.woff') format('woff'),
+        url('fonts/Breathingrain-Regular.ttf') format('truetype'),
+        url('fonts/Breathingrain-Regular.svg#Breathingrain-Regular') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+html { 
+    background: url("img/background/notebook_paper.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    font-family: "BreathingRain";
+    font-weight: lighter;
+    background: white;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: "BreathingRain";
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #003152;
+    font-size: 40pt;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 14pt;
+    font-style: italic;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: #003152;
+}
+
+.header {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+/* Seems necessary to make iframes work on itch.io on mobile iOS :-( */
+.outerContainer {
+    position: absolute;
+    display: block;
+    margin: 0;
+    padding: 0;
+    -webkit-overflow-scrolling: touch;
+    overflow: scroll;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.container {
+    display: block;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 4em;
+    background-image: url("img/background/transparent.png");
+}
+
+p {
+    font-size: 24pt;
+    color: #003152;
+    line-height: 1.7em;
+    font-weight: lighter;
+}
+
+a {
+    font-weight: 700;
+    color: #003152;
+    font-family: "BreathingRain";
+    transition: color 0.6s;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    transition: color 0.1s;
+}
+
+strong {
+    color: black;
+    font-weight: bold;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.container .hide {
+    opacity: 0.0;
+}
+
+.container .invisible {
+    display: none;
+}
+
+.container * {
+    opacity: 1.0;
+    transition: opacity 1.0s;
+}
+
+p.choice {
+    text-align: center;
+    line-height: 1.7em;
+}
+
+/* first choice */
+:not(.choice) + .choice {
+    padding-top: 1em; 
+}
+
+
+p.choice a {
+    font-size: 24pt;
+}
+
+/* Built in class if you want to write:
+     The End # CLASS: end
+*/
+.end {
+    text-align: center;
+    font-weight: bold;
+    color: #003152;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
