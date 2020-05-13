@@ -32,7 +32,18 @@ h1 {
     font-size: 900%;
 }
 
+h2 {
+    color: white;
+    font-family: AlphabetizedCassetteTapes;
+    font-size: 500%;
+}
+
 p {
+    color: white;
+    font-size: 150%;
+}
+
+a {
     color: white;
     font-size: 150%;
 }
@@ -50,7 +61,7 @@ div.center-align {
     text-align: center;
 }
 
-a {
+a.button {
     color: white;
     width: 100px;
     height: 50px;
